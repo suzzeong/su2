@@ -8,9 +8,11 @@
   <title>GRAFF - 실습용 01</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
   <link rel="stylesheet" href="./css/main.css">
   <script src="./js/jquery-1.12.4.min.js"></script>
   <script src="./js/slick.min.js"></script>
+  <script src="./js/jquery.mb.YTPlayer.min.js"></script>
   <script src="./js/main.js"></script>
 </head>
 
@@ -116,11 +118,176 @@
           </a>
         </div>
       </section>
+      <section class="product_list">
+        <h2>JEWELLERY COLLECTION</h2>
+        <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷</p>
+        <div class="container">
+          <div class="product_slider">
+            <figure>
+              <div class="box">
+                <img src="./img/lesedilarona01.jpg" alt="">
+              </div>
+              <strong>JEWELLERY</strong>
+              <a href="">구매하기</a>
+            </figure>
+            <figure>
+              <div class="box">
+                <img src="./img/lesedilarona02.jpg" alt="">
+              </div>
+              <strong>JEWELLERY</strong>
+              <a href="">JEWELLERY 구매하기</a>
+            </figure>
+            <figure>
+              <div class="box">
+                <img src="./img/lesedilarona03.jpg" alt="">
+              </div>
+              <strong>JEWELLERY</strong>
+              <a href="">구매하기</a>
+            </figure>
+            <figure>
+              <div class="box">
+                <img src="./img/lesedilarona04.jpg" alt="">
+              </div>
+              <strong>JEWELLERY</strong>
+              <a href="">구매하기</a>
+            </figure>
+            <figure>
+              <div class="box">
+                <img src="./img/lesedilarona05.jpg" alt="">
+              </div>
+              <strong>JEWELLERY</strong>
+              <a href="">구매하기</a>
+            </figure>
+            <figure>
+              <div class="box">
+                <img src="./img/lesedilarona06.jpg" alt="">
+              </div>
+              <strong>JEWELLERY</strong>
+              <a href="">구매하기</a>
+            </figure>
+          </div>
+          <div class="arrows">
+            <i class="xi-arrow-left left"></i>
+            <i class="xi-arrow-right right"></i>
+          </div>
+        </div>
+      </section>
+      <section class="utb_movie">
+
+        <h2>JEWELLERY COLLECTION</h2>
+        <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷</p>
+
+        <div class="control">
+          <i class="xi-pause left"></i>
+          <i class="xi-play right"></i>
+        </div>
+
+        <div id="bgndVideo" class="player" data-property="{
+            videoURL:'https://youtu.be/n2P34upkyUs',
+            containment:'.utb_movie',
+            autoPlay:true, 
+            mute:true, 
+            startAt:0, 
+            opacity:1,
+            showControls: false,
+            playOnlyIfVisible: true
+          }">
+        </div>
+      </section>
+      <section class="customer_tab">
+        <div class="container">
+          <div class="left">
+            <ul class="tab_menu">
+              <li class="on">menu01</li>
+              <li>menu02</li>
+              <li>menu03</li>
+            </ul>
+            <div class="tab_content">
+              <div class="on">
+                <ul>
+                  <li>
+                    <div>
+                      <a href="">모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</a>
+                    </div>
+                    <span>[2022.06.07]</span>
+                  </li>
+                  <li>
+                    <div>
+                      <a href="">모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</a>
+                    </div>
+                    <span>[2022.06.07]</span>
+                  </li>
+                  <li>
+                    <div>
+                      <a href="">모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</a>
+                    </div>
+                    <span>[2022.06.07]</span>
+                  </li>
+                  <li>
+                    <div>
+                      <a href="">모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</a>
+                    </div>
+                    <span>[2022.06.07]</span>
+                  </li>
+                </ul>
+              </div>
+              <div>02</div>
+              <div>03</div>
+            </div>
+          </div>
+          <div class="right">
+            <img src="./img/mainvisual01.jpg" alt="">
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-
+      <div class="top">
+        <div class="container">
+          <ul class="customer_link">
+            <li><a href="">이용약관</a></li>
+            <li><a href="">문의하기</a></li>
+            <li><a href="">개인정보 취급방침</a></li>
+            <li><a href="">방문 예약하기</a></li>
+            <li><a href="">사이즈 가이드</a></li>
+            <li><a href="">그라프 하우스 소개</a></li>
+          </ul>
+          <div class="sns">
+            <a href="">
+              <i class="xi-kakaotalk"></i>
+            </a>
+            <a href="">
+              <i class="xi-facebook"></i>
+            </a>
+            <a href="">
+              <i class="xi-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="container">
+          <address>
+            전화번호 : + 33 (1) 83 75 54 54 &copy; Graff France Headquarters 237 rue Saint-Honore Paris 75001
+          </address>
+          <div>
+            <select id="flink">
+              <option value="">Family link</option>
+              <option value="http://naver.com">Naver</option>
+              <option value="http://daum.net">Daum</option>
+              <option value="http://google.com">Google</option>
+            </select>
+          </div>
+        </div>
+      </div>
     </footer>
+    <div class="popup">
+      <img src="./img/lesedilarona01.jpg" alt="">
+      <button>close</button>
+    </div>
+
   </div>
+
 </body>
 
 </html>
